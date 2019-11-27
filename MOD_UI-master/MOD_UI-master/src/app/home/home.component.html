@@ -1,0 +1,40 @@
+  <div class="bg-img" id="header">
+    <nav class="navbar navbar-expand-lg navbar-light sticky-top">
+      <a class="navbar-brand ml-3" routerLinkActive="true" routerLink="/">Mentor On Demand</a>
+      
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+         
+        <div class="col-sm-6">
+              <a class="nav-link btn btn-primary" (click)="navToSearch()">Search Trainers</a>
+          </div>
+        <ul class="navbar-nav ml-auto">
+            <li>                                  
+              <a class="nav-link btn btn-success btn-primary text-center" routerLink="/user-register" routerLinkActive="true">Register as User</a>
+            </li>&nbsp;
+            <li>
+              <a class="nav-link btn btn-success btn-primary text-center" routerLink="/trainer-register" routerLinkActive="true">Register as Mentor</a>
+            </li>&nbsp;      
+            <li>
+            <a class="nav-link btn btn-success text-center" routerLink="/login" routerLinkActive="true"
+              style="width:130px;">Login</a>
+          </li>
+        </ul>
+        
+      </div>
+      
+    </nav>
+      
+  </div>
+
+
+
+
+
+<div class="footer">
+    <div>copyrights@2019</div>
+  </div>
